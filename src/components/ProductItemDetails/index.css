@@ -1,0 +1,153 @@
+/* Write your CSS here */
+.products_render_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+}
+
+.product_image_and_details_container {
+  display: flex;
+}
+
+.product_image {
+  width: 500px;
+  height: 800px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.product_details_container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.product_title {
+  font-size: 30px;
+  color: rgb(1, 10, 1);
+  font-weight: 800;
+}
+
+.product_price {
+  font-size: 15px;
+  color: rgb(21, 22, 21);
+  font-weight: 800;
+}
+
+.rating_and_reviews_container {
+  display: flex;
+  align-items: center;
+}
+
+.rating_and_star {
+  background-color: blue;
+  padding: 0px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.product_rating {
+  color: white;
+  font-weight: 500;
+  margin-right: 3px;
+}
+
+.product_star_img {
+  width: 20px;
+  height: 20px;
+}
+
+.product_totalReviews {
+  font-size: 12px;
+  color: rgb(48, 49, 48);
+  font-weight: 600;
+}
+
+.product_description {
+  font-size: 15px;
+  color: rgb(48, 49, 48);
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.product_available {
+  font-size: 15px;
+  color: rgb(20, 22, 20);
+  font-weight: 600;
+}
+
+.product_brand {
+  font-size: 15px;
+  color: rgb(20, 22, 20);
+  font-weight: 600;
+}
+
+.hr_line {
+  width: 100%;
+  border: 1px solid rgb(161, 158, 158);
+}
+
+.plus_minus_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 180px;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.plusMinus_button {
+  height: 50px;
+  width: 50px;
+  border: none;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.plus_minus_component {
+  margin: 0px;
+  padding: 0px;
+}
+
+.product_count {
+  font-size: 20px;
+  color: rgb(6, 7, 6);
+  font-weight: 600;
+}
+
+.add_to_btn_container {
+}
+
+.add_to_cart_btn {
+  background-color: blue;
+  padding: 10px 5px 10px 5px;
+  border-radius: 8px;
+  color: white;
+  font-weight: 800;
+  font-size: 14px;
+}
+
+.similar_products_heading {
+  font-size: 25px;
+  color: rgb(0, 8, 1);
+  font-family: 'Roboto';
+  font-weight: 800;
+  margin-top: 30px;
+}
+
+.ul_similar_items_container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  margin-top: 10px;
+}

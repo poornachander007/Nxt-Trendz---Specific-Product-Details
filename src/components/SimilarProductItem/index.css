@@ -1,0 +1,58 @@
+/* Write your CSS here */
+.li_card_container {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 120px;
+  height: 180px;
+}
+
+.similar_product_img {
+  width: 100px;
+  height: 100px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.similar_title {
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+}
+.similar_brand {
+  color: rgb(117, 113, 113);
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.price_and_rating_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.similar_price {
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.star_and_rating_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.similar_rating {
+  color: rgba(240, 239, 239, 0.992);
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.star_icon {
+  height: 20px;
+  width: 20px;
+}
